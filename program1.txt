@@ -1,4 +1,4 @@
-#include<iostream.h>
+#include<iostream.h> //this is a change made
 #include<conio.h>
 void main()
 {
@@ -7,4 +7,9 @@ void main()
 	cin>>a>>b;
 	display(a,b);
 	getch();
+}
+void display(int x, int y)
+{
+	cout<<"The first number added was: "<<x;
+	cout<<"The second number added was: "<<y;
 }
